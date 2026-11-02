@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:site_name" content="Ember & Oak Interiors">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Ember & Oak Interiors — handcrafted, sustainable furniture and curated home décor from local South African artisans.">
+  <title>Ember & Oak Interiors | Handcrafted South African Design</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Ember & Oak Interiors home">
+        <span class="brand-mark" aria-hidden="true"><span>E</span><span>O</span></span>
+        <span class="brand-copy"><strong>Ember & Oak</strong><small>INTERIORS</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span aria-hidden="true">☰</span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="enquiry.html">Custom Orders</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Handmade in the Western Cape</p>
+        <h1 id="hero-title">Handcrafted. <em>Sustainable.</em> Uniquely South African.</h1>
+        <p class="lead">Furniture and décor with a sense of place, made by local artisans and selected for homes that value the story behind every piece.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="products.html">Shop the collection</a>
+          <a class="text-link" href="about.html">Our story</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/hero-banner.svg" alt="Warm, minimal illustration introducing Ember & Oak Interiors">
+        <div class="hero-stamp" aria-hidden="true">Est.<br>2021<br>Woodstock</div>
+        <div class="hero-note">A slower, more considered way to furnish.<small>Ember & Oak Interiors</small></div>
+      </div>
+    </section>
+
+    <section class="story-strip" aria-labelledby="story-title">
+      <div class="container">
+        <h2 id="story-title">Objects that feel like they belong.</h2>
+        <div>
+          <p>Founded in 2021 by interior designer Thabo Nkosi, Ember & Oak Interiors brings authentic African craftsmanship into contemporary spaces. We work exclusively with local makers across the Western Cape, pairing material honesty with a refined, lived-in point of view.</p>
+          <a class="text-link" href="about.html">Meet the people behind the pieces</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="featured-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">The edit</p>
+          <h2 id="featured-title">Featured pieces</h2>
+        </div>
+        <p>Small-batch furniture and home décor, selected for texture, utility, and a little everyday beauty.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image"><img src="assets/product-chair.png" alt="Textured sage cushion in a soft neutral setting"></div>
+          <div class="product-meta"><div><h3>Oak Dining Chair</h3><p>Solid oak, hand-finished locally.</p></div><span class="price">R2,450</span></div>
+          <a class="card-link" href="products.html#furniture">View piece</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/product-lamp.svg" alt="Ceramic table lamp with natural linen shade"></div>
+          <div class="product-meta"><div><h3>Terracotta Table Lamp</h3><p>Ceramic base with linen shade.</p></div><span class="price">R980</span></div>
+          <a class="card-link" href="products.html#lighting">View piece</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/product-textile.svg" alt="Woven throw cushion in sage green"></div>
+          <div class="product-meta"><div><h3>Woven Throw Cushion</h3><p>Locally woven sage textile.</p></div><span class="price">R395</span></div>
+          <a class="card-link" href="products.html#textiles">View piece</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/product-vase.svg" alt="Handmade ceramic vase with earthy glaze"></div>
+          <div class="product-meta"><div><h3>Ceramic Vase</h3><p>Thrown stoneware in earthy glazes.</p></div><span class="price">R650</span></div>
+          <a class="card-link" href="products.html#decor">View piece</a>
+        </article>
+      </div>
+      <div style="margin-top:2rem"><a class="button button-ghost" href="products.html">Explore all pieces</a></div>
+    </section>
+
+    <section class="newsletter section" aria-labelledby="newsletter-title">
+      <div class="container">
+        <div>
+          <p class="eyebrow" style="color:#f0ad9b">From the studio</p>
+          <h2 id="newsletter-title">Good things, thoughtfully shared.</h2>
+        </div>
+        <div>
+          <p>Sign up for new arrivals, promotions, and stories from the artisans we work with.</p>
+          <form class="newsletter-form" action="mailto:hello@emberandoak.co.za" method="post" enctype="text/plain" data-feedback="You're on the list. We'll share the next good thing soon." aria-label="Newsletter signup">
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" name="newsletter-email" type="email" placeholder="Your email address" autocomplete="email" required>
+            <button class="button button-dark" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h2>Ember & Oak</h2><p style="margin-top:.75rem">Handcrafted. Sustainable. Uniquely South African.</p></div>
+      <div><p class="footer-label">Explore</p><nav class="footer-nav" aria-label="Footer navigation"><a href="about.html">Our story</a><a href="products.html">Shop the collection</a><a href="enquiry.html">Custom orders</a></nav></div>
+      <div><p class="footer-label">Visit</p><p>Woodstock, Cape Town<br>Western Cape, South Africa</p><a href="contact.html" style="display:inline-block;margin-top:.6rem">Contact the showroom ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year>2026</span> Ember & Oak Interiors</span><span>Made with care in Cape Town</span></div>
+  </footer>
+</body>
+</html>

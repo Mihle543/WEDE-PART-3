@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:site_name" content="Ember & Oak Interiors">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Browse handcrafted furniture, décor, lighting and textiles from Ember & Oak Interiors.">
+  <meta property="og:title" content="Shop | Ember & Oak Interiors">
+  <meta property="og:description" content="Explore handcrafted furniture, décor, lighting and textiles made by local South African artisans.">
+  <title>Shop | Ember & Oak Interiors</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Ember & Oak Interiors home"><span class="brand-mark" aria-hidden="true"><span>E</span><span>O</span></span><span class="brand-copy"><strong>Ember & Oak</strong><small>INTERIORS</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span aria-hidden="true">☰</span></button>
+    <nav class="site-nav" id="site-navigation" aria-label="Primary navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Shop</a></li><li><a href="enquiry.html">Custom Orders</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  </div></header>
+
+  <main id="main-content">
+    <section class="page-hero"><div class="container"><div><p class="eyebrow">The collection</p><h1>Pieces with a point of view.</h1><p class="lead">Explore handcrafted furniture, décor, lighting and textiles made with local hands and lasting materials.</p></div><img class="page-hero-art" src="assets/product-vase.svg" alt="Handmade ceramic vase illustration"></div></section>
+    <section class="section container" aria-labelledby="catalogue-title">
+      <div class="section-head"><div><p class="eyebrow">Shop small, live well</p><h2 id="catalogue-title">Shop our collection</h2></div><p>Every piece is selected for its materiality, usefulness, and ability to grow more beautiful with time.</p></div>
+      <div class="shop-tools">
+        <div class="filters" aria-label="Filter products by category"><button class="filter-button" type="button" data-filter="all" aria-pressed="true">All pieces</button><button class="filter-button" type="button" data-filter="furniture" aria-pressed="false">Furniture</button><button class="filter-button" type="button" data-filter="decor" aria-pressed="false">Décor</button><button class="filter-button" type="button" data-filter="lighting" aria-pressed="false">Lighting</button><button class="filter-button" type="button" data-filter="textiles" aria-pressed="false">Textiles</button></div>
+        <label class="product-search">Search <input data-product-search type="search" placeholder="Product name" aria-label="Search products"></label>
+      </div>
+      <p class="search-results" data-search-results aria-live="polite">4 pieces shown</p>
+      <div class="product-grid shop-grid">
+        <article class="product-card" id="furniture" data-category="furniture" data-name="Oak Dining Chair"><button class="lightbox-trigger product-image" type="button" data-lightbox-open data-image="assets/product-chair.png" data-alt="Textured sage cushion in a soft neutral setting" data-caption="Oak Dining Chair — solid oak, hand-finished by local craftspeople"><img src="assets/product-chair.png" alt="Textured sage cushion in a soft neutral setting"></button><div class="product-meta"><div><h3>Oak Dining Chair</h3><p>Solid oak, hand-finished by local craftspeople.</p></div><span class="price">R2,450</span></div><a class="card-link" href="enquiry.html">Enquire about this piece</a></article>
+        <article class="product-card" id="decor" data-category="decor" data-name="Handmade Ceramic Vase"><button class="lightbox-trigger product-image" type="button" data-lightbox-open data-image="assets/product-vase.svg" data-alt="Handmade ceramic vase" data-caption="Handmade Ceramic Vase — locally thrown stoneware in earthy glazes"><img src="assets/product-vase.svg" alt="Handmade ceramic vase"></button><div class="product-meta"><div><h3>Handmade Ceramic Vase</h3><p>Locally thrown stoneware vase in earthy glazes.</p></div><span class="price">R650</span></div><a class="card-link" href="enquiry.html">Enquire about this piece</a></article>
+        <article class="product-card" id="lighting" data-category="lighting" data-name="Terracotta Table Lamp"><button class="lightbox-trigger product-image" type="button" data-lightbox-open data-image="assets/product-lamp.svg" data-alt="Ceramic table lamp with linen shade" data-caption="Terracotta Table Lamp — ceramic base with a natural linen shade"><img src="assets/product-lamp.svg" alt="Ceramic table lamp with linen shade"></button><div class="product-meta"><div><h3>Terracotta Table Lamp</h3><p>Ceramic base with a natural linen shade.</p></div><span class="price">R980</span></div><a class="card-link" href="enquiry.html">Enquire about this piece</a></article>
+        <article class="product-card" id="textiles" data-category="textiles" data-name="Woven Throw Cushion"><button class="lightbox-trigger product-image" type="button" data-lightbox-open data-image="assets/product-textile.svg" data-alt="Woven throw cushion in sage green" data-caption="Woven Throw Cushion — locally woven textile in sage green"><img src="assets/product-textile.svg" alt="Woven throw cushion in sage green"></button><div class="product-meta"><div><h3>Woven Throw Cushion</h3><p>Locally woven textile in sage green.</p></div><span class="price">R395</span></div><a class="card-link" href="enquiry.html">Enquire about this piece</a></article>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-labelledby="lightbox-caption"><figure class="lightbox-dialog"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image gallery">×</button><img data-lightbox-image src="assets/product-vase.svg" alt=""><figcaption id="lightbox-caption" data-lightbox-caption></figcaption></figure></div>
+  <footer class="site-footer"><div class="container footer-grid"><div><h2>Ember & Oak</h2><p style="margin-top:.75rem">Handcrafted. Sustainable. Uniquely South African.</p></div><div><p class="footer-label">Explore</p><nav class="footer-nav" aria-label="Footer navigation"><a href="about.html">Our story</a><a href="products.html">Shop the collection</a><a href="enquiry.html">Custom orders</a></nav></div><div><p class="footer-label">Visit</p><p>Woodstock, Cape Town<br>Western Cape, South Africa</p><a href="contact.html" style="display:inline-block;margin-top:.6rem">Contact the showroom ↗</a></div></div><div class="container footer-bottom"><span>© <span data-year>2026</span> Ember & Oak Interiors</span><span>Made with care in Cape Town</span></div></footer>
+</body>
+</html>
