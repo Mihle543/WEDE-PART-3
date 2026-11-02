@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "path": "/", "title": "Ember & Oak Interiors" },
+    { "path": "/about.html", "title": "About Us | Ember & Oak Interiors" },
+    { "path": "/products.html", "title": "Shop | Ember & Oak Interiors" },
+    { "path": "/enquiry.html", "title": "Custom Orders | Ember & Oak Interiors" },
+    { "path": "/contact.html", "title": "Contact Us | Ember & Oak Interiors" }
+  ]
+}
